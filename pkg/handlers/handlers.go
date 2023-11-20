@@ -1,10 +1,11 @@
 package handlers
 
 import (
+	"net/http"
+
 	"github.com/murik1502/bookings/pkg/config"
 	"github.com/murik1502/bookings/pkg/models"
 	"github.com/murik1502/bookings/pkg/render"
-	"net/http"
 )
 
 // Repo the repository used by the handlers
